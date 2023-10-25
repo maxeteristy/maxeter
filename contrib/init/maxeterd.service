@@ -1,0 +1,22 @@
+[Unit]
+Description=Maxeter's distributed currency daemon
+After=network.target
+
+[Service]
+User=maxetercore
+Group=maxetercore
+
+Type=forking
+PIDFile=/var/lib/maxeterd/maxeterd.pid
+ExecStart=/usr/bin/maxeterd -daemon -pid=/var/lib/maxeterd/maxeterd.pid \
+-conf=/etc/maxetercore/maxeter.conf -datadir=/var/lib/maxeterd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

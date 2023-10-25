@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/maxeter_ar.qm</file>
+        <file alias="bg">locale/maxeter_bg.qm</file>
+        <file alias="de">locale/maxeter_de.qm</file>
+        <file alias="en">locale/maxeter_en.qm</file>
+        <file alias="es">locale/maxeter_es.qm</file>
+        <file alias="fi">locale/maxeter_fi.qm</file>
+        <file alias="fr">locale/maxeter_fr.qm</file>
+        <file alias="it">locale/maxeter_it.qm</file>
+        <file alias="ja">locale/maxeter_ja.qm</file>
+        <file alias="ko">locale/maxeter_ko.qm</file>
+        <file alias="nl">locale/maxeter_nl.qm</file>
+        <file alias="pl">locale/maxeter_pl.qm</file>
+        <file alias="pt">locale/maxeter_pt.qm</file>
+        <file alias="ro">locale/maxeter_ro.qm</file>
+        <file alias="ru">locale/maxeter_ru.qm</file>
+        <file alias="sk">locale/maxeter_sk.qm</file>
+        <file alias="th">locale/maxeter_th.qm</file>
+        <file alias="tr">locale/maxeter_tr.qm</file>
+        <file alias="vi">locale/maxeter_vi.qm</file>
+        <file alias="zh_CN">locale/maxeter_zh_CN.qm</file>
+        <file alias="zh_TW">locale/maxeter_zh_TW.qm</file>
+    </qresource>
+</RCC>

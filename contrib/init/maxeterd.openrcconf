@@ -1,0 +1,33 @@
+# /etc/conf.d/maxeterd: config file for /etc/init.d/maxeterd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/maxetercore/maxeter.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/maxeterd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/maxeterd.pid"
+
+# Where to write maxeterd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/maxeterd"
+
+# User and group to own maxeterd process
+#BITCOIND_USER="maxetercore"
+#BITCOIND_GROUP="maxetercore"
+
+# Path to maxeterd executable
+#BITCOIND_BIN="/usr/bin/maxeterd"
+
+# Nice value to run maxeterd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for maxeterd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

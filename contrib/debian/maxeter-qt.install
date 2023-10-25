@@ -1,0 +1,6 @@
+usr/local/bin/maxeter-qt usr/bin
+share/pixmaps/maxeter32.xpm usr/share/pixmaps
+share/pixmaps/maxeter16.xpm usr/share/pixmaps
+share/pixmaps/maxeter128.png usr/share/pixmaps
+debian/maxeter-qt.desktop usr/share/applications
+debian/maxeter-qt.protocol usr/share/kde4/services/
